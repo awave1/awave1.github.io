@@ -1,6 +1,6 @@
-import React from 'react';
-import Layout from '../components/layout';
-import { List, ListLink } from '../components/List';
+import React from "react";
+import Layout from "../components/Layout";
+import { List, ListLink } from "../components/List";
 
 export default function AboutPage() {
   return (

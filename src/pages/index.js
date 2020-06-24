@@ -1,6 +1,5 @@
-import React from 'react';
-import Layout from '../components/layout';
-import { Waves, WaveEmoji } from '../components/Waves';
+import React from "react";
+import Layout from "../components/Layout";
 
 export default function IndexPage() {
   return (
