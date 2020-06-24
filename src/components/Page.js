@@ -30,7 +30,7 @@ const Content = styled.div`
   flex-grow: 1;
 `;
 
-const Layout = ({ children }) => (
+const Page = ({ children }) => (
   <Wrapper>
     <div style={{ maxWidth: "760px", width: "100%", margin: "0 auto" }}>
       <Toolbar />
@@ -40,4 +40,4 @@ const Layout = ({ children }) => (
   </Wrapper>
 );
 
-export default Layout;
+export default Page;

@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "../components/Layout";
+import Page from "../components/Page";
 
 const NotFoundPage = () => (
-  <Layout>
+  <Page>
     <small
       style={{
         margin: "0 auto",
@@ -13,7 +13,7 @@ const NotFoundPage = () => (
     >
       emptyspace
     </small>
-  </Layout>
+  </Page>
 );
 
 export default NotFoundPage;
