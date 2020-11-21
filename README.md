@@ -52,13 +52,8 @@ If you want to contribute to this project in any way, here's a guide on how to g
 4. Push to the Branch (`git push origin cool-feature-name`)
 5. Open a Pull Request
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Contact
 
-Your Name - [@awaveawave](https://twitter.com/awaveawave) - artgolovin96@gmail.com
+Artem Golovin - [@awaveawave](https://twitter.com/awaveawave) - artgolovin96@gmail.com
 
 Project Link: [https://github.com/awave1/temagolovin.dev](https://github.com/awave1/temagolovin.dev)
