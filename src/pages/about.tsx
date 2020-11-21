@@ -1,5 +1,6 @@
-import Page from "../components/Page";
-import { List, ListLink } from "../components/List";
+import React from 'react';
+import Page from "../components/Page/Page";
+import { List, ListLink } from "../components/List/List";
 
 export default function AboutPage() {
   return (
@@ -8,7 +9,7 @@ export default function AboutPage() {
       <p>
         Here are links to my social media. Come say hi! (and follow my
         SoundCloud{" "}
-        <span rel="img" alt="One Hundred">
+        <span>
           💯
         </span>
         )

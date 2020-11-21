@@ -1,6 +1,7 @@
+import React, { ReactNode } from 'react';
 import styled from "styled-components";
-import Page from "../components/Page";
-import { Link } from "../components/List";
+import Page from "../components/Page/Page";
+import { Link } from "../components/List/List";
 
 const GHCard = styled.div`
   background-color: #171717;
@@ -19,7 +20,13 @@ const GHCard = styled.div`
   }
 `;
 
-function Card({ title, children, to }) {
+type CardProps = {
+  title: string;
+  to: string;
+  children?: ReactNode;
+}
+
+function Card({ title, children, to }: CardProps) {
   return (
     <GHCard>
       <h3>
@@ -75,7 +82,7 @@ export default function WorkPage() {
         </Card>
         <Card title="Droider" to={gh("Droider")}>
           One of my first Android projects. It's a mobile client for a Russian
-          tech blog <Link href="http://droider.ru/">Droider.ru</Link>. This
+          tech blog <Link to="http://droider.ru/">Droider.ru</Link>. This
           project made me more interested in Android and Frontend development.
         </Card>
       </Container>

@@ -1,11 +1,12 @@
+import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Home from "./pages/index";
 import About from "./pages/about";
 import Work from "./pages/work";
 
-import "./components/layout.css";
-import "./components/waves.css";
+import "./layout.css";
+import "./components/Waves/waves.css";
 
 function App() {
   return (
