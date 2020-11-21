@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { Link as RouteLink } from "react-router-dom";
 

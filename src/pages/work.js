@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import Page from "../components/Page";
 import { Link } from "../components/List";
@@ -51,8 +50,8 @@ export default function WorkPage() {
       <Container>
         <Card title="jay - compiler project" to={gh("jay")}>
           CPSC 411, University of Calgary Compiler Design term project. Designed
-          and developed a compiler for J-- (subset of Java). Compiler
-          produces WebAssembly code, that can be potentially run in the browser.
+          and developed a compiler for J-- (subset of Java). Compiler produces
+          WebAssembly code, that can be potentially run in the browser.
           Initially was written using Bison, Flex &amp; C++, currently working
           on rewriting the compiler entirely in Rust.
         </Card>
