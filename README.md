@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/awave1/temagolovin.dev">
-    <img src="images/logo.svg" alt="Logo" width="80" height="80">
+    🌊
   </a>
 
   <h3 align="center">temagolovin.dev</h3>
