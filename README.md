@@ -1,59 +1,54 @@
-<br />
 <p align="center">
-  <a href="https://github.com/awave1/temagolovin.dev">
-    🌊
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
-
-  <h3 align="center">temagolovin.dev</h3>
 </p>
+<h1 align="center">
+  Gatsby minimal starter
+</h1>
 
-### Built With
+## 🚀 Quick start
 
-* TypeScript
-* React
-* styled-components
+1.  **Create a Gatsby site.**
 
-<!-- GETTING STARTED -->
-## Getting Started
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-To get a local copy up and running follow these simple steps.
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
 
-### Prerequisites
+2.  **Start developing.**
 
-To get the project up and running make sure either latest stable `npm` or `yarn` is installed
+    Navigate into your new site’s directory and start it up.
 
-### Installation
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
 
-1. Clone the repo
-```sh
-git clone git@github.com:awave1/temagolovin.dev.git
-```
+3.  **Open the code and start customizing!**
 
-2. Install dependencies
-```sh
-cd ./temagolovin.dev
+    Your site is now running at http://localhost:8000!
 
-yarn install
-```
+    Edit `src/pages/index.js` to see your site update in real-time!
 
-3. Start the local server
-```sh
-# while in the project folder
-yarn start
-```
+4.  **Learn more**
 
-## Contributing
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-If you want to contribute to this project in any way, here's a guide on how to go about it:
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b cool-feature-name`)
-3. Commit your Changes (`git commit -m 'change button colors or something'`)
-4. Push to the Branch (`git push origin cool-feature-name`)
-5. Open a Pull Request
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## Contact
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-Artem Golovin - [@awaveawave](https://twitter.com/awaveawave) - artgolovin96@gmail.com
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-Project Link: [https://github.com/awave1/temagolovin.dev](https://github.com/awave1/temagolovin.dev)
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+## 🚀 Quick start (Gatsby Cloud)
+
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)

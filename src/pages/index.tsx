@@ -1,5 +1,14 @@
-import React from 'react';
+import * as React from 'react';
+import { heading, page } from './styles.css';
 
-export default function IndexPage() {
-  return <h1>💯</h1>;
-}
+// markup
+const IndexPage = () => {
+  return (
+    <main className={page}>
+      <title>Artem Golovin | Home Page</title>
+      <h1 className={heading}>Artem Golovin</h1>
+    </main>
+  );
+};
+
+export default IndexPage;
